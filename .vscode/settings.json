@@ -1,0 +1,10 @@
+{
+    "cSpell.words": [
+        "Schubi"
+    ],
+    "cSpell.ignorePaths": [
+        "data/**",
+        "node_modules/**",
+        "**/*.css"
+    ]
+}

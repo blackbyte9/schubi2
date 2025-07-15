@@ -1,9 +1,9 @@
 
-export default function Home() {
+export default function Lease() {
   return (
     <div >
       <h1 className="text-4xl font-bold text-center mt-10">
-        Willkommen zur Schulbuch Bibliothek
+        Buch ausleihen
       </h1>
     </div>
   );

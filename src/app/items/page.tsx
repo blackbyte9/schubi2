@@ -1,9 +1,9 @@
 
-export default function Home() {
+export default function Items() {
   return (
     <div >
       <h1 className="text-4xl font-bold text-center mt-10">
-        Willkommen zur Schulbuch Bibliothek
+        Liste der Bücher
       </h1>
     </div>
   );
