@@ -17,7 +17,9 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-gray-300 text-gray-900 antialiased">
         <div className="flex flex-col min-h-screen justify-between bg-gray-300">
-          <NavBar />
+          <nav className="bg-green-800 text-white shadow">
+            <NavBar />
+          </nav>
           <main className="container mx-auto p-4 flex-grow">
             {children}
           </main>
