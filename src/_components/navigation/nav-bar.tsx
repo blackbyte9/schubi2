@@ -6,26 +6,26 @@ export function NavBar() {
     <nav className="bg-green-800 text-white shadow">
       <NavigationMenu className="container mx-auto px-4 py-2" viewport={false}>
         <NavigationMenuList>
-          <NavigationMenuItem>
+          <NavigationMenuItem  className="text-3x1 font-bold px-8">
             <NavigationMenuLink asChild>
               <Link href="/" className="text-3x1 font-bold px-8">Schubi2</Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-              <Link href="/lease" >Ausleihen</Link>
+              <Link href="/lease" className="px-6" >Ausleihen</Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-              <Link href="/return" >Zurückgeben</Link>
+              <Link href="/return" className="px-6" >Zurückgeben</Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuTrigger>Daten</NavigationMenuTrigger>
             <NavigationMenuContent>
               <NavigationMenuLink asChild>
-                <Link href="/books">Bücher</Link>
+                <Link href="/books" className="px-6" >Bücher</Link>
               </NavigationMenuLink>
               <NavigationMenuLink asChild>
                 <Link href="/students">Schüler:innen</Link>
